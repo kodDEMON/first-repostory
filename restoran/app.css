@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*Category section started*/
+
+.category-c {
+  padding: 30px 0;
+}
+
+.category-c .mini-h {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ff5634;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.category-c .banner-txt {
+  font-weight: 700;
+  font-size: 44px;
+  color: #121212;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.category-c .cards-c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category-c .cards-c .card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.category-c .cards-c .card img {
+  max-width: 105px;
+  max-height: 90px;
+  margin-bottom: 24px;
+}
+
+.category-c .cards-c .card h2 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #121212;
+  margin-bottom: 21px;
+}
+
+.category-c .cards-c .card p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #656565;
+  text-align: center;
+}
+.category-c .btns-c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.category-c button {
+  padding: 26px 40px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 27px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#btn-cat-reg {
+  background: #ff5634;
+  border: 1px solid #ff5634;
+  color: #fff;
+}
+#btn-cat-reg:hover {
+  background: #fff;
+  border: 1px solid #ff5634;
+  color: #ff5634;
+}
+#btn-cat-down {
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+}
+#btn-cat-down:hover {
+  border: 1px solid #ff5634;
+  color: #ff5634;
+}
+
+/*Category section ended*/
+
+/*Road section started*/
+
+.road-c {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.road-c > img {
+  max-width: 400px;
+}
+.road-c .txt-c {
+  max-width: 569px;
+}
+.road-c .txt-c h1 {
+  font-weight: 700;
+  font-size: 44px;
+  color: #121212;
+  line-height: 54px;
+  margin-bottom: 10px;
+}
+
+.road-c .txt-c > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #656565;
+  margin-bottom: 32px;
+}
+.phone-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 22px 0;
+}
+.txt-c-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.x {
+  margin-right: 55px;
+}
+.y {
+  margin-left: 55px;
+}
+
+/*Road section ended*/
